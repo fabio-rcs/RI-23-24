@@ -31,7 +31,7 @@ function pFinal=Animate(h,P,pInicial,D,N)
         h.YData=P1(2,:); 
         h.ZData=P1(3,:);
     
-        pause(1/N)
+        pause(0.01)
     
     end
     
