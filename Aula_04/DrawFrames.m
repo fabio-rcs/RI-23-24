@@ -1,4 +1,4 @@
-function h = DrawFrames(AA, P, F)
+function h = DrawFrames(AA, P, F, Color)
 %DRAWLINKS desenha um gráfico que representa outros objetos associados aos
 %elos, como os referenciais
     
@@ -9,6 +9,6 @@ function h = DrawFrames(AA, P, F)
     for n = 1:size(AA,3)
         T = T*AA(:,:,n);
         Pn = T*P;
-        h(n+1) = patch('Vertices', Pn(1:3,:)', 'Faces', F, 'FaceColor', 'g');
+        h(n+1) = patch('Vertices', Pn(1:3,:)', 'Faces', F, 'FaceColor', Color(n));
     end
 end

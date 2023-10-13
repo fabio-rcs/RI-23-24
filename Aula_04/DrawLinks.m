@@ -6,12 +6,14 @@ function h = DrawLinks(Org)
             X = [Org(1,i), Org(1,i+1)];
             Y = [Org(2,i), Org(2,i+1)];
             Z = [Org(3,i), Org(3,i+1)];
-            h = line(X, Y, Z);
+            h = plot3(X, Y, Z, 'Color','b');
             h.LineWidth = 2;
             hold on
-            plot3(X(1), Y(1), Z(1), 'or', 'MarkerSize', 15)
+            scatter3(X(1), Y(1), Z(1), 'filled', ...
+                'MarkerFaceColor', 'r')
         else
-            plot3(Org(1,i), Org(2,i), Org(3,i), 'or', 'MarkerSize', 15)
+            scatter3(Org(1,i), Org(2,i), Org(3,i), 'filled', ...
+                'MarkerFaceColor', 'r')
         end
 
     end
