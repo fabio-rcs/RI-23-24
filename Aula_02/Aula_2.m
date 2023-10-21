@@ -5,7 +5,7 @@ clearvars;
 close all;
 clc;
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 P1 = [-1 0 0]';
 P2 = [1 0 0]';
@@ -53,14 +53,13 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 
 P=[ 0.5   0.5    1    0   -1    -0.5   -0.5
     0     2      2    3    2    2      0
     0     0      0    0    0    0      0
     1     1      1    1    1    1      1  ];
-
 % Arrow visualization
 h = fill3(P(1,:), P(2,:), P(3,:), 'm');
 xlabel('X'), ylabel('Y'), zlabel('Z')
@@ -89,7 +88,7 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 
 P1=[0.5   0.5    1    0   -1    -0.5   -0.5
@@ -171,7 +170,7 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 P1=[ 0.5   0.5    1    0   -1    -0.5   -0.5
     0     2      2    3    2    2      0
@@ -238,9 +237,9 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
-P1=[ 0.5   0.5    1    0   -1    -0.5   -0.5
+P1=[0.5   0.5    1    0   -1    -0.5   -0.5
     0     2      2    3    2    2      0
     0     0      0    0    0    0      0
     1     1      1    1    1    1      1  ];

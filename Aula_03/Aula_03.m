@@ -4,7 +4,7 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 [P, F] = seixos3();
 
@@ -48,7 +48,7 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 [P, F] = seixos3();
 
@@ -86,7 +86,7 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 % Definition of vertices
 points = [
@@ -155,7 +155,7 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 [P, F] = seixos3();
 figure;

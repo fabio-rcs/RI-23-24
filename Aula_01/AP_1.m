@@ -4,7 +4,7 @@ clearvars;
 close all;
 clc;
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 P1 = [-1 0]';
 P2 = [1 0]';
@@ -50,7 +50,7 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 P1 = [-1 0 1]';
 P2 = [1 0 1]';
@@ -100,7 +100,7 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 P1 = [0 -1/2 1]';
 P2 = [2 0 1]';
@@ -127,7 +127,7 @@ clearvars
 close all
 clc
 
-addpath("RI-23-24\lib\")
+addpath("lib\")
 
 P1 = [0 -1/2 1]';
 P2 = [2 0 1]';
