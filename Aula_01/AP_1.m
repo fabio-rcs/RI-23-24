@@ -1,10 +1,10 @@
+%% Ex 1 ------------------------------------------------------------------- 
+% Triangle creation and translation
 clearvars;
 close all;
 clc;
 
-
-%% Ex 1 ------------------------------------------------------------------- 
-% Triangle creation and translation
+addpath("RI-23-24\lib\")
 
 P1 = [-1 0]';
 P2 = [1 0]';
@@ -49,6 +49,8 @@ end
 clearvars
 close all
 clc
+
+addpath("RI-23-24\lib\")
 
 P1 = [-1 0 1]';
 P2 = [1 0 1]';
@@ -98,6 +100,8 @@ clearvars
 close all
 clc
 
+addpath("RI-23-24\lib\")
+
 P1 = [0 -1/2 1]';
 P2 = [2 0 1]';
 P3 = [0 1/2 1]';
@@ -122,6 +126,8 @@ AnimateSimple2D(h, A1, M, N)
 clearvars
 close all
 clc
+
+addpath("RI-23-24\lib\")
 
 P1 = [0 -1/2 1]';
 P2 = [2 0 1]';

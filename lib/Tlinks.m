@@ -4,7 +4,7 @@ function [AA] = Tlinks(DH)
 %longo da 3a dimensão da hipermatriz AA
 
     % Start by alocating memory for AA
-    AA = zeros(4,4, size(DH,1));
+    AA = zeros(4, 4, size(DH,1));
     
     % For each line in DH, call the function Tlink to transform
     for i=1:size(DH,1)

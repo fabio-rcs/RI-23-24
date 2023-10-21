@@ -18,6 +18,5 @@ function h = DrawLinks(Org)
 
     end
 
-    hold off
 end
 

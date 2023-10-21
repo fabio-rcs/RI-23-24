@@ -1,9 +1,11 @@
+%% Ex 1 ------------------------------------------------------------------- 
+% Triangle creation and translation
+
 clearvars;
 close all;
 clc;
 
-%% Ex 1 ------------------------------------------------------------------- 
-% Triangle creation and translation
+addpath("RI-23-24\lib\")
 
 P1 = [-1 0 0]';
 P2 = [1 0 0]';
@@ -51,6 +53,9 @@ clearvars
 close all
 clc
 
+addpath("RI-23-24\lib\")
+
+
 P=[ 0.5   0.5    1    0   -1    -0.5   -0.5
     0     2      2    3    2    2      0
     0     0      0    0    0    0      0
@@ -84,7 +89,10 @@ clearvars
 close all
 clc
 
-P1=[ 0.5   0.5    1    0   -1    -0.5   -0.5
+addpath("RI-23-24\lib\")
+
+
+P1=[0.5   0.5    1    0   -1    -0.5   -0.5
     0     2      2    3    2    2      0
     0     0      0    0    0    0      0
     1     1      1    1    1    1      1  ];
@@ -163,6 +171,8 @@ clearvars
 close all
 clc
 
+addpath("RI-23-24\lib\")
+
 P1=[ 0.5   0.5    1    0   -1    -0.5   -0.5
     0     2      2    3    2    2      0
     0     0      0    0    0    0      0
@@ -227,6 +237,8 @@ hold off
 clearvars
 close all
 clc
+
+addpath("RI-23-24\lib\")
 
 P1=[ 0.5   0.5    1    0   -1    -0.5   -0.5
     0     2      2    3    2    2      0

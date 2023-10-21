@@ -4,6 +4,8 @@ clearvars
 close all
 clc
 
+addpath("RI-23-24\lib\")
+
 [P, F] = seixos3();
 
 patch('Vertices', P(1:3,:)', 'Faces', F, 'FaceColor', 'g')
@@ -46,6 +48,8 @@ clearvars
 close all
 clc
 
+addpath("RI-23-24\lib\")
+
 [P, F] = seixos3();
 
 h = patch('Vertices', P(1:3,:)', 'Faces', F, 'FaceColor', 'g');
@@ -81,6 +85,8 @@ end
 clearvars
 close all
 clc
+
+addpath("RI-23-24\lib\")
 
 % Definition of vertices
 points = [
@@ -148,6 +154,8 @@ end
 clearvars
 close all
 clc
+
+addpath("RI-23-24\lib\")
 
 [P, F] = seixos3();
 figure;

@@ -3,6 +3,8 @@ clearvars
 close all
 clc
 
+addpath("lib\")
+
 % Define DH matrix
 DH = [-pi/4     1       0   0
        pi/2     1.5     0   0
@@ -158,6 +160,8 @@ clearvars
 close all
 clc
 
+addpath("lib\")
+
 % Define DH_RRR antropromorph matrix
 DH_RRRantro = [0     0      3   pi/2
                pi/4  3      0   0 
@@ -191,6 +195,8 @@ clearvars
 close all
 clc
 
+addpath("RI-23-24\lib\")
+
 % Variable definition
 D = 0.02;
 L = 100;
@@ -215,6 +221,8 @@ view(135,20)
 clearvars
 close all
 clc
+
+addpath("lib\")
 
 % Variable definition 
 D = 0.02;
